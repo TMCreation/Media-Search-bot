@@ -20,6 +20,8 @@ async def start(bot, message):
         ],[
         InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/cinehub_family"),
         InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
+        ],[
+        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=😇Hi මට පුලුවන් ඔයාට ඕන කර ғɪʟᴍ එක ᴛᴠ sᴇʀɪᴇs එක හොයල දෙන්න  https://t.me/media_searcher_bot"),
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
