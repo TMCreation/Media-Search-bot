@@ -18,8 +18,8 @@ async def start(bot, message):
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('📥 ɢᴏ ɪɴʟɪɴᴇ', switch_inline_query=''),
         ],[
-        InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/BOTS_Infinity"),
-        InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", callback_data="close")
+        InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/cinehub_family"),
+        InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
