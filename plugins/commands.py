@@ -15,12 +15,11 @@ async def start(bot, message):
         await message.reply(INVITE_MSG)
     else:
         buttons = [[
-            InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Go Inline', switch_inline_query=''),
-            InlineKeyboardButton('📽 🄲🄸🄽🄴🄷🅄🄱', switch_inline_query=''),
+            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📥 ɢᴏ ɪɴʟɪɴᴇ', switch_inline_query=''),
         ],[
-        InlineKeyboardButton("💡 HELP", callback_data="help"),
-        InlineKeyboardButton("🔐 CLOSE", callback_data="close")
+        InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/BOTS_Infinity"),
+        InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", callback_data="close")
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
