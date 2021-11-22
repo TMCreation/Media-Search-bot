@@ -76,7 +76,10 @@ async def log_file(bot, message):
         await message.reply_document('TelegramBot.log')
     except Exception as e:
         await message.reply(str(e))
-
+        
+@clent.on_message(filters.sticker & filters.pivate)
+async def sticker(bot, message):
+        message.reply(message.sticker.file_id)        
 
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
