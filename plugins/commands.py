@@ -77,7 +77,7 @@ async def log_file(bot, message):
     except Exception as e:
         await message.reply(str(e))
         
-@client.on_message(filters.sticker & filters.pivate)
+@Client.on_message(filters.sticker & filters.user(ADMINS))
 async def sticker(bot, message):
         message.reply(message.sticker.file_id)        
 
