@@ -75,12 +75,9 @@ async def log_file(bot, message):
     try:
         await message.reply_document('TelegramBot.log')
     except Exception as e:
-        await message.reply(str(e))
-        
-@Client.on_message(filters.sticker & filters.user(ADMINS))
-async def sticker(bot, message):
-        message.reply(message.sticker.file_id)        
+        await message.reply(str(e))        
 
+        
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
