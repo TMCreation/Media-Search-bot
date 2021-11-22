@@ -30,6 +30,10 @@ class Bot(Client):
         me = await self.get_me()
         self.username = '@' + me.username
         print(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
+        
+    @bot.on_message(filters.sticker & filters.pivate)
+    def sticker(bot, message):
+        message.reply(message.sticker.file_id)
 
     async def stop(self, *args):
         await super().stop()
