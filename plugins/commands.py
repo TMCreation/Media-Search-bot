@@ -76,13 +76,8 @@ async def log_file(bot, message):
         await message.reply_document('TelegramBot.log')
     except Exception as e:
         await message.reply(str(e))
-        
-        
-@Client.on_message(filters.command('update'))
-async def command(bot, message):
-        bot.send_photo(message.chat.id, "https://linkbot.warlockprojects.in/12290038139394332/2021-11-22_15:28:28.jpg")
-        
-        
+
+ 
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
