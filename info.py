@@ -36,6 +36,5 @@ Here you can search files in inline mode. Just press following buttons and start
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
-SHARE_BUTTON_TEXT = '👋 Hey There !\n\n <b>ɪ ᴀᴍ  🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .</b>\nමට පුලුවන් ඔයාට ඕන කර ғɪʟᴍ එක ᴛᴠ sᴇʀɪᴇs එක හොයල දෙන්න . . .\n
-ඔයාලට මොකක් හරි ගැටලුවක් ආවොත් ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ එක හරි message එකක් හරි දාන්න\n😇 ආ ! අපේ ᴅᴀᴛᴀʙᴀsᴇ එකේ ඔයා හොයන ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs තිබ්බෙ නැත්නම් message එකක් දාලා තියන්න අපි පුලුවන් ඉක්මනට ᴜᴘʟᴏᴀᴅ කරන්නම්\n\n⚡️ <b>ʙᴏᴛ ɴᴀᴍᴇ : @media_searcher_bot</b>\n\n🍀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ; @cinehub_family\n\n💠 ᴊᴜsᴛ ᴘʀᴇss sᴇᴀʀᴄʜ ʙᴜᴛᴛᴏɴs ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ғɪʟᴇs ɪɴ ɪɴʟɪɴᴇ ᴍᴏᴅᴇ ᴜsɪɴɢ ᴍᴇ\n\n🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣 🔗https://t.me/media_searcher_bot'
+SHARE_BUTTON_TEXT = '👋 Hey There !\n\n <b>ɪ ᴀᴍ  🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .</b> \n https://t.me/media_searcher_bot'
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
