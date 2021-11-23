@@ -36,5 +36,5 @@ Here you can search files in inline mode. Just press following buttons and start
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
-SHARE_BUTTON_TEXT = '👋 Hey There !\n\n <b>ɪ ᴀᴍ  🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .</b> \n https://t.me/media_searcher_bot'
+SHARE_BUTTON_TEXT = '👋 Hey There !\n\n ɪ ᴀᴍ  🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .\n\n ⚡️ ʙᴏᴛ ɴᴀᴍᴇ : @media_searcher_bot \n ᴊᴜsᴛ ᴘʀᴇss sᴇᴀʀᴄʜ ʙᴜᴛᴛᴏɴs ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs ᴜsɪɴɢ ᴍᴇ \n  🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣 🔗https://t.me/media_searcher_bot'
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
