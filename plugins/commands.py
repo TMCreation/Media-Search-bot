@@ -22,6 +22,8 @@ async def start(bot, message):
         InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
         ],[
         InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
+        ],[
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
