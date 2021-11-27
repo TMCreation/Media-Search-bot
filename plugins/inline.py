@@ -77,6 +77,8 @@ def get_reply_markup(username, query):
     ],[
         InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴀɢᴀɪɴ', switch_inline_query_current_chat=query),
         InlineKeyboardButton('🔄 sʜᴀʀᴇ ʙᴏᴛ', url=url),
+    ],[
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
     ]]
     return InlineKeyboardMarkup(buttons)
 
