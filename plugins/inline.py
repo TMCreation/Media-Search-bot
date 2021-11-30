@@ -107,3 +107,11 @@ async def is_subscribed(bot, query):
             return True
 
     return False
+
+
+def get_info(username, query):
+
+    buttons = [[
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
+    ]]
+    return False
