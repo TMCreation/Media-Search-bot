@@ -112,6 +112,6 @@ async def is_subscribed(bot, query):
 def get_info(username, query):
 
     buttons = [[
-        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', url="@imdb"),
     ]]
     return False
