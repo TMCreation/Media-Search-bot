@@ -113,4 +113,10 @@ async def delete(bot, message):
 @Client.on_message(filters.command('help'))
 async def help(bot, message):
     """Show total files in database"""
-    msg = await message.reply("</b> <a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
+    msg = await message.reply("<a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
+
+@Client.on_message(filters.command('info'))
+async def info(bot, message):
+    msg = await message.reply("😎 ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏᴠɪᴇs & ᴛᴠ sᴇʀɪᴇs sᴛᴏʀʏ ʟɪɴᴇ , ᴀᴄᴛᴏʀs , ʀᴇʟᴇsᴇ ᴅᴀᴛᴇ , .. .\n\n ᴡᴇ ʜᴀᴠᴇ ᴀʀʀᴀɴɢᴇ ɪᴛ ғᴏʀ ʏᴏᴜ ❕ \n\n🔥ᴊᴜsᴛ ᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴍᴇᴅɪᴀ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs ᴡʜᴀᴛ ᴇᴠᴇʀ ʏᴏᴜ ᴡᴀɴᴛ \n\nσρтιση ѕυρρσят ву : @imdb", quote=True)
+
+
