@@ -118,5 +118,8 @@ async def help(bot, message):
 @Client.on_message(filters.command('info'))
 async def info(bot, message):
     msg = await message.reply("😎 ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏᴠɪᴇs & ᴛᴠ sᴇʀɪᴇs sᴛᴏʀʏ ʟɪɴᴇ , ᴀᴄᴛᴏʀs , ʀᴇʟᴇsᴇ ᴅᴀᴛᴇ , .. .\n\n ᴡᴇ ʜᴀᴠᴇ ᴀʀʀᴀɴɢᴇ ɪᴛ ғᴏʀ ʏᴏᴜ ❕ \n\n🔥ᴊᴜsᴛ ᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴍᴇᴅɪᴀ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs ᴡʜᴀᴛ ᴇᴠᴇʀ ʏᴏᴜ ᴡᴀɴᴛ \n\nσρтιση ѕυρρσят ву : @imdb", quote=True)
-
+    else:
+        buttons = [[
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_@imdb=''),
+    ]]
 
