@@ -117,17 +117,4 @@ async def help(bot, message):
 
 @Client.on_message(filters.command('info'))
 async def info(bot, message):
-    msg = await message.reply("😎 ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏᴠɪᴇs & ᴛᴠ sᴇʀɪᴇs sᴛᴏʀʏ ʟɪɴᴇ , ᴀᴄᴛᴏʀs , ʀᴇʟᴇsᴇ ᴅᴀᴛᴇ , .. .\n\n ᴡᴇ ʜᴀᴠᴇ ᴀʀʀᴀɴɢᴇ ɪᴛ ғᴏʀ ʏᴏᴜ ❕ \n\n🔥ᴊᴜsᴛ ᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴍᴇᴅɪᴀ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs ᴡʜᴀᴛ ᴇᴠᴇʀ ʏᴏᴜ ᴡᴀɴᴛ \n\nσρтιση ѕυρρσят ву : @imdb", quote=True)
-    else:
-        buttons = [[
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('📥 ɢᴏ ɪɴʟɪɴᴇ', switch_inline_query=''),
-        ],[
-        InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/cinehub_family"),
-        InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
-        ],[
-        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
-        ],[
-        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
-    ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
+    msg = await message.reply("😎 ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏᴠɪᴇs & ᴛᴠ sᴇʀɪᴇs sᴛᴏʀʏ ʟɪɴᴇ , ᴀᴄᴛᴏʀs , ʀᴇʟᴇsᴇ ᴅᴀᴛᴇ , .. .\n\n ᴡᴇ ʜᴀᴠᴇ ᴀʀʀᴀɴɢᴇ ɪᴛ ғᴏʀ ʏᴏᴜ ❕ \n\n🔥ᴊᴜsᴛ ᴘʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴛᴀʀᴛ sᴇᴀʀᴄʜɪɴɢ ᴍᴇᴅɪᴀ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs ᴡʜᴀᴛ ᴇᴠᴇʀ ʏᴏᴜ ᴡᴀɴᴛ \n\nσρтιση ѕυρρσят ву : @imdb \n\n\n <b>😢 sorry still working on it</b>", quote=True)
