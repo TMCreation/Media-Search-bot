@@ -107,11 +107,3 @@ async def is_subscribed(bot, query):
             return True
 
     return False
-
-
-def get_info(username, query):
-
-    buttons = [[
-        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', url="@imdb"),
-    ]]
-    return False
