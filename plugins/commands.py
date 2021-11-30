@@ -108,3 +108,9 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
+
+
+@Client.on_message(filters.command('help'))
+async def total(bot, message):
+    """Show total files in database"""
+    msg = await message.reply("</b> <a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
