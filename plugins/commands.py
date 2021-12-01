@@ -21,7 +21,8 @@ async def start(bot, message):
         InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/cinehub_family"),
         InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
         ],[
-        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
+        InlineKeyboardButton("🎞 සිංහල උපසිරැසි", url="https://t.me/sub_searcher_bot")
+        InlineKeyboardButton("🔀 🅢🅗🅐🅡🅔", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
         ],[
         InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat=''),
     ]]
