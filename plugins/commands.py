@@ -111,10 +111,21 @@ async def delete(bot, message):
         await msg.edit('File not found in database')
 
 
-@Client.on_message(filters.command('help'))
-async def help(bot, message):
-    """Show total files in database"""
-    msg = await message.reply("<a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
+@Client.on_message(filters.command('go'))
+async def go(bot, message):
+    if len(message.command) > 1 and message.command[1] == 'subscribe':
+        await message.reply("<a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
+    else:
+        buttons = [[
+        InlineKeyboardButton("🏠 Mαιη Mєηυ ", callback_data='start'),
+        InlineKeyboardButton("📕 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
+        ],[
+        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
+        ],[
+        InlineKeyboardButton("🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs", switch_inline_query_current_chat=''),
+    ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply("📌 ѕтєρѕ\n\n(𝟶𝟷) ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɴᴀᴍᴇᴅ ' 🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴏʀ ᴛᴠ sᴇʀɪᴇs '\n\n(𝟶𝟸) ᴛʜᴇɴ ᴛʏᴘᴇ ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs ɴᴀᴍᴇ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴛᴏ sᴇᴀʀᴄʜ \n\n(𝟶𝟹) sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ғɪʟᴇ (ᴀᴍᴏɴɢ ᴠᴀʀɪᴏᴜs ғᴏʀᴍᴀᴛs) & ᴅᴏᴡɴʟɪᴀᴅ ɪᴛ\n\n❔ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ʜᴇʟᴘ , ᴛᴀᴘ' 📕 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ ' ʙᴜᴛᴛᴏɴ ᴛᴏ ʀᴇsᴏʟᴠᴇ ʏᴏᴜ ɪssᴜᴇ\n\n🔅 𝐈𝐟 𝐭𝐡𝐞𝐫𝐞 𝐰𝐚𝐬𝐧'𝐭 𝐲𝐨𝐮𝐫 𝐟𝐢𝐥𝐦 𝐨𝐫 𝐓𝐕 𝐬𝐞𝐫𝐢𝐞𝐬 𝐉𝐮𝐬𝐭 𝐭𝐲𝐩𝐞 𝐚𝐬 𝐚 𝐧𝐨𝐫𝐦𝐚𝐥 𝐜𝐡𝐚𝐭 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞\n\n<a href='https://t.me/media_searcher_bot'>🤖</a> | © ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @cinehub_family ", reply_markup=reply_markup)
 
 @Client.on_message(filters.command('info'))
 async def info(bot, message):
