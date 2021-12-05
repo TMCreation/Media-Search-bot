@@ -111,7 +111,7 @@ async def delete(bot, message):
         await msg.edit('File not found in database')
 
 
-@Client.on_message(filters.command('go'))
+@Client.on_message(filters.command('help'))
 async def go(bot, message):
     if len(message.command) > 1 and message.command[1] == 'subscribe':
         await message.reply("<a href='https://telegra.ph/%CA%9C%E1%B4%87%CA%9F%E1%B4%98-11-16'>Tutorial Video of 🄲🄸🄽🄴🄷🅄🄱 ᴍᴇᴅɪᴀ sᴇᴀʀᴄʜᴇʀ ʙᴏᴛ</a> ", quote=True)
