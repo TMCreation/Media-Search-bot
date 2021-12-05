@@ -19,7 +19,7 @@ async def start(bot, message):
             InlineKeyboardButton('📥 ɢᴏ ɪɴʟɪɴᴇ', switch_inline_query=''),
         ],[
         InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱 ", url="https://t.me/cinehub_family"),
-        InlineKeyboardButton(" ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16"),
+        InlineKeyboardButton("📕 ᴀʙᴏᴜᴛ & ʜᴇʟᴘ", url="https://telegra.ph/ʜᴇʟᴘ-11-16"),
         ],[
         InlineKeyboardButton("🎞 සිංහල උපසිරැසි", url="https://t.me/sub_searcher_bot"),
         InlineKeyboardButton("🔀 🅢🅗🅐🅡🅔", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
@@ -118,7 +118,7 @@ async def go(bot, message):
     else:
         buttons = [[
         InlineKeyboardButton("🏠 Mαιη Mєηυ ", callback_data='start'),
-        InlineKeyboardButton("📕 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
+        InlineKeyboardButton("📚 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
         ],[
         InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
         ],[
